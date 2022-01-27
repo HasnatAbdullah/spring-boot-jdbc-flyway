@@ -12,7 +12,6 @@ public class Actor {
     private final String name;
     private final String movie;
 
-
     public Actor(@JsonProperty("id")Integer id,
                  @JsonProperty("name")String name,
                  @JsonProperty("movie")String movie) {

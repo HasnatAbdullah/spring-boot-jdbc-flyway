@@ -6,7 +6,7 @@ app:
       password: 'password'
       pool-size: 30
       username: postgres
-
+#In a docker image named postgres-spring
 server:
   error:
     include-binding-errors: always
